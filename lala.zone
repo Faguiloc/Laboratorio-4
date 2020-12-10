@@ -1,0 +1,20 @@
+{
+    "$origin": "lala.uft.edu.",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "ns1.lala.uft.edu.",
+        "rname": "admin.lala.uft.edu.",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "ns1.lala.uft.edu." },
+        { "host": "ns2.lala.uft.edu." }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "12.34.56.78" }
+    ]
+}
